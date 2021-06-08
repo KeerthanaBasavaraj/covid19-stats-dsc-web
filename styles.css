@@ -1,0 +1,145 @@
+html {
+  font-size: 22px;
+}
+body {
+  padding: 1rem;
+}
+header > * {
+  text-align: center;
+}
+
+.card1 {
+  background-color: #f1523c;
+  color: white;
+  padding: 1rem;
+  height: 4rem;
+}
+.card2 {
+  background-color: #14c711;
+  color: white;
+  padding: 1rem;
+  height: 4rem;
+}
+.card3 {
+  background-color: #3259e3;
+  color: white;
+  padding: 1rem;
+  height: 4rem;
+}
+.card4 {
+  background-color: #757575;
+  color: white;
+  padding: 1rem;
+  height: 4rem;
+}
+
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+.left {
+  float: left;
+  margin-left: 90px;
+  padding: 0px;
+  margin-top: 30px;
+}
+.right {
+  float: right;
+  margin-right: 90px;
+  margin-top: 20px;
+}
+span {
+  font-size: 20px;
+  font-weight: 100;
+}
+sup {
+  font-size: 13px;
+  font-weight: 30;
+}
+
+@media (min-width: 600px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .cards {
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .left {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 360px) {
+  .cards {
+    grid-template-rows: repeat(4, 1fr);
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 17px;
+  }
+
+  .left {
+    float: left;
+    margin-left: 20px;
+    padding: 0px;
+    margin-top: 30px;
+  }
+  .right {
+    float: right;
+    margin-right: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  span {
+    font-size: 15px;
+    font-weight: 100;
+  }
+  sup {
+    font-size: 13px;
+    font-weight: 30;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .cards {
+    grid-template-rows: repeat(4, 1fr);
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+
+  .left {
+    float: left;
+    margin-left: 30px;
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .right {
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  span {
+    font-size: 15px;
+    font-weight: 100;
+  }
+  sup {
+    font-size: 10px;
+    font-weight: 30;
+  }
+}
+
+.stat {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 2px solid #4e2c2c;
+}
