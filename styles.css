@@ -86,7 +86,7 @@ sup {
 
   .left {
     float: left;
-    margin-left: 20px;
+    margin-left: 10px;
     padding: 0px;
     margin-top: 30px;
   }
@@ -113,19 +113,20 @@ sup {
     font-size: 20px;
   }
   h4 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .left {
     float: left;
-    margin-left: 30px;
+    margin-left: 0px;
     padding: 0px;
     margin-top: 10px;
+    margin-left: 0px;
     margin-bottom: 10px;
   }
   .right {
     float: right;
-    margin-right: 10px;
+    margin-right: 0px;
     margin-top: 10px;
     font-size: 20px;
   }
